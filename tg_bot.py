@@ -2,7 +2,7 @@ import telebot
 import main
 
 
-bot = telebot.TeleBot('1565307869:AAFrtBKlHQ9YUElL93Iw8LflqqkVD__7Nmo')
+bot = telebot.TeleBot('____')
 @bot.message_handler(content_types=['text'])
 def start(message):
     if message.text == '/reg':
